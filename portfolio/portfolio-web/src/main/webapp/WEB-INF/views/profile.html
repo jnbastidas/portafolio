@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+
+	<style>
+		.flex-container {
+		  display: flex;
+		  flex-direction: column:
+		}
+		
+		.flex-container > div {
+		  background-color: #f1f1f1;
+		  margin: 10px;
+		  padding: 20px;
+		  font-size: 30px;
+		}
+	</style>
+</head>
+<body >
+	<a href="/portfolio">
+    	Go back!
+    </a>
+    <br />
+	<div th:if="${portfolio != null}" class="flex-container">
+		<div style="width: 35%;">
+			<div>
+				<img th:src="${portfolio.imageUrl}" width="50%" height="50%"/>
+			</div>
+			<div th:if="${portfolio.tweets != null}">
+				<h3 th:text="${portfolio.twitterUserName}+' Timeline'"></h3>
+				
+				<tr th:each="tweet: ${portfolio.tweets}">
+				    <div>
+						<h5 th:text="${tweet.title}"></h5>
+						<span th:text="${tweet.description}"></span>
+					</div>
+				</tr>
+			</div>
+		</div>
+		<div style="width: 55%;">
+			<div>
+				<h3 th:text="${portfolio.title}"></h3>
+			</div>
+			<div>
+				<h6>My Work Experience</h6>
+				<p style="font-size: 18px;" th:text="${portfolio.description}"/>
+			</div>
+		</div>
+	</div>
+	<div th:if="${portfolio == null}">
+		System error, 
+		<a href="/portfolio">
+	    	please ckick here!
+	    </a>
+	</div>
+</body>
+</html>
