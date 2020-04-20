@@ -28,14 +28,14 @@ Steps
       » mvn install
   
  2. START WEB MODULE (Java web app)
-  Now let's go into the "portfolio-web" directory from the command line and executing:
+  <br />Now let's go into the "portfolio-web" directory from the command line and executing:
   
       » mvn spring-boot:run
       
   Once this has finished executing, you should be able to see the Porfile web aplication by going to http://localhost:8080/portfolio in your browser.
  
  3. START THE API (Java rest services)
-  Let's go into the "portfolio-apis" directory from the command line and executing:
+  <br />Let's go into the "portfolio-apis" directory from the command line and executing:
 
       » mvn spring-boot:run
  
@@ -45,15 +45,15 @@ Steps
  
  <b>Key Features and Technologies<b/>
   
-  Spring Framework: It provides numerous features, including dependency injection and transaction control.
+Spring Framework: It provides numerous features, including dependency injection and transaction control.
   
-  Twitter Appi integration: spring-social-twitter
+Twitter Appi integration: spring-social-twitter
   
-  Persistence: spring-jdbc
+Persistence: spring-jdbc
   
-  Web-pages: thymeleaf-spring5
+Web-pages: thymeleaf-spring5
   
-  Modular Design: this aplication has 4 modules
+Modular Design: this aplication has 4 modules
       - portfolio-model: bussines entities.
       - portfolio-service: it module has 2 leyers, repository-layer to database persistence, and service-layer to declare business services
       - portfolio-web: web interfaces (html, css)
