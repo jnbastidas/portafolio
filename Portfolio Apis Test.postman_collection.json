@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "3dac7033-ff88-4110-b08e-fc88483007f9",
+		"name": "Portfolio Apis Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/portfolio/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"portfolio",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Portfolio By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/portfolio/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"portfolio",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Portfolio By Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"description\": \"Lord Commander of the Night's Watch and King of the Free Folk\",\n    \"imageUrl\": \"https://pbs.twimg.com/profile_images/901947348699545601/hqRMHITj_400x400.jpg\",\n    \"twitterUserName\": \"LordSnow\",\n    \"title\": \"Juan Nieve!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/portfolio/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"portfolio",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
