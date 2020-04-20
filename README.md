@@ -9,8 +9,8 @@ REST API with two endpoints that allows the consumer to get and modify the profi
 
 PREREQUISITES
 
-First, download the Java 11 Development Kit: either the official Oracle JDK or Open JDK
-You will also need the latest version of Maven (version 3.6.3 is recommended)
+First, download the Java 11 Development Kit: either the official Oracle JDK or Open JDK.
+You will also need the latest version of Maven (version 3.6.3 is recommended).
 
 
 Steps
