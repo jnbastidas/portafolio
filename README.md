@@ -39,10 +39,11 @@ Steps
 
       » mvn spring-boot:run
  
-  Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work. You can user the file <a href='https://github.com/jnbastidas/portafolio/blob/master/Portfolio%20Apis%20Test.postman_collection.json'>Portfolio Apis Test.postman_collection.json</a>
+  Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work. 
+<br />Please use the file <a href='https://github.com/jnbastidas/portafolio/blob/master/Portfolio%20Apis%20Test.postman_collection.json'>Portfolio Apis Test.postman_collection.json</a> with the <a href='https://www.postman.com/'>Postman app</a> to test the endpoints for getting and modifing the profile information.
   
   
- 
+  
  
  <br /><br />
  <b>Key Features and Technologies</b>
