@@ -42,14 +42,14 @@
     </dependency>
   </dependencies>
   
-  <build>
-       <finalName>java-web-project</finalName>
-       <plugins>
-           <plugin>
-               <groupId>org.eclipse.jetty</groupId>
-               <artifactId>jetty-maven-plugin</artifactId>
-               <version>9.4.12.v20180830</version>
-           </plugin>
-       </plugins>
-   </build>
+<!--   <build> -->
+<!--        <finalName>java-web-project</finalName> -->
+<!--        <plugins> -->
+<!--            <plugin> -->
+<!--                <groupId>org.eclipse.jetty</groupId> -->
+<!--                <artifactId>jetty-maven-plugin</artifactId> -->
+<!--                <version>9.4.12.v20180830</version> -->
+<!--            </plugin> -->
+<!--        </plugins> -->
+<!--    </build> -->
 </project>
