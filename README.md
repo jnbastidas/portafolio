@@ -36,7 +36,7 @@ Steps
  
  3. START THE API (Java rest services)
   Let's go into the "portfolio-apis" directory from the command line and executing:
-  
+
       » mvn spring-boot:run
  
   Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work.
