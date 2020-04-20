@@ -5,7 +5,7 @@ REST API with two endpoints that allows the consumer to get and modify the profi
 
 
 
-Running the Portfolio Java app locally:
+<b>Running the Portfolio Java app locally:</b>
 
 PREREQUISITES
 
@@ -42,5 +42,30 @@ Steps
   Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work.
  
  
+ 
  <b>Key Features and Technologies<b/>
+  
+  Spring Framework: It provides numerous features, including dependency injection and transaction control.
+  
+  Twitter Appi integration: spring-social-twitter
+  
+  Persistence: spring-jdbc
+  
+  Web-pages: thymeleaf-spring5
+  
+  Modular Design: this aplication has 4 modules
+      - portfolio-model: bussines entities.
+      - portfolio-service: it module has 2 leyers, repository-layer to database persistence, and service-layer to declare business services
+      - portfolio-web: web interfaces (html, css)
+      - portfolio-apis: it complies with the REST specification to declare rest apis.
+      
+      
+<b>Total time:</b> 16 Hours
+      
+      
+      
+      
+      
+      
+  
     
