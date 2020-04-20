@@ -41,4 +41,6 @@ Steps
  
   Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work.
  
+ 
+ <b>Key Features and Technologies<b/>
     
