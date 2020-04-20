@@ -43,7 +43,7 @@ Steps
  
  
  
- <b>Key Features and Technologies<b/>
+ <b>Key Features and Technologies</b>
   
 Spring Framework: It provides numerous features, including dependency injection and transaction control.
   
