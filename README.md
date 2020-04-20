@@ -42,7 +42,7 @@ Steps
   Once this has finished, you can use the url http://localhost:8081/portfolio/ping (from a rest client) to verify the correct work.
  
  
- 
+ <br /><br />
  <b>Key Features and Technologies</b>
   
 Spring Framework: It provides numerous features, including dependency injection and transaction control.
@@ -54,10 +54,10 @@ Persistence: spring-jdbc
 Web-pages: thymeleaf-spring5
   
 Modular Design: this aplication has 4 modules
-      - portfolio-model: bussines entities.
-      - portfolio-service: it module has 2 leyers, repository-layer to database persistence, and service-layer to declare business services
-      - portfolio-web: web interfaces (html, css)
-      - portfolio-apis: it complies with the REST specification to declare rest apis.
+      <br />- portfolio-model: bussines entities.
+      <br />- portfolio-service: it module has 2 leyers, repository-layer to database persistence, and service-layer to declare business services
+      <br />- portfolio-web: web interfaces (html, css)
+      <br />- portfolio-apis: it complies with the REST specification to declare rest apis.
       
       
 <b>Total time:</b> 16 Hours
