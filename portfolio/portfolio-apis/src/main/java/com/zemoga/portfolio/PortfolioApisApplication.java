@@ -9,6 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"com.zemoga.portfolio"})
 public class PortfolioApisApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(PortfolioApisApplication.class, args);
+		SpringApplication.run(PortfolioApisApplicationv2.class, args);
 	}
 }
